@@ -30,6 +30,7 @@ a {
 header {
   background-color: rgb(255, 255, 255);
   margin-bottom: 40px;
+  border-bottom: 2px solid rgb(199, 199, 199);
 }
 
 header,
@@ -62,4 +63,5 @@ article {
   background-color: rgb(255, 255, 255);
   width: 960px;
   margin: 0 auto;
+  border: 1px solid rgb(199, 199, 199);
 }
