@@ -26,6 +26,11 @@ a {
 /* HEADER AND NAV */
 /* ------------------------------------------------------- */
 
+header {
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 40px;
+}
+
 header,
 nav {
   display: flex;
@@ -49,4 +54,8 @@ header > div.container {
 
 img#headshot {
   width: 200px;
+}
+
+article {
+  background-color: rgb(255, 255, 255);
 }
