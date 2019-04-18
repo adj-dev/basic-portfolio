@@ -131,3 +131,23 @@ input {
 form > div {
   padding: 15px 0;
 }
+
+/* ------------------------------------------------------- */
+/* Portfolio section */
+/* ------------------------------------------------------- */
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-col {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+div.gallery-col > img {
+  width: 200px;
+  height: 200px;
+}
