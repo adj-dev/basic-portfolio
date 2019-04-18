@@ -4,15 +4,32 @@
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: rgb(255, 253, 232);
 }
 
 h1 {
-  background-color: rgb(49, 82, 190);
+  background-color: rgb(86, 124, 181);
   color: white;
   margin: 0;
   padding: 20px 30px;
+}
+
+h2 {
+  color: rgb(86, 124, 181);
+}
+
+a,
+span,
+p {
+  color: rgb(77, 77, 77);
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 1.9em;
+  margin: 0;
 }
 
 a {
@@ -22,7 +39,6 @@ a {
 .container {
   margin: 0 auto;
   display: flex;
-  /* padding: 10px; */
   width: 960px;
 }
 
@@ -37,7 +53,7 @@ a {
 header {
   background-color: rgb(255, 255, 255);
   margin-bottom: 40px;
-  border-bottom: 2px solid rgb(199, 199, 199);
+  border-bottom: 1px solid rgb(199, 199, 199);
 }
 
 header,
@@ -64,6 +80,9 @@ header > div.container {
 
 img#headshot {
   width: 200px;
+  float: left;
+  padding-top: 6px;
+  margin-right: 10px;
 }
 
 article {
@@ -76,4 +95,20 @@ article {
 
 article > div.container {
   width: inherit;
+}
+
+.separated {
+  border-top: 1px solid rgb(199, 199, 199);
+  padding-top: 40px;
+  margin-top: 10px;
+}
+
+p#first {
+  /* line-height: 2.5em; */
+  padding-top: 100px;
+  padding-right: 10px;
+}
+
+p#second {
+  padding: 40px 0;
 }
