@@ -5,7 +5,9 @@
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background-color: rgb(255, 253, 232);
+  /* background-color: rgb(255, 253, 232); */
+  background-image: url('../images/background.jpg');
+  background-size: 100%;
 }
 
 h1 {
@@ -166,4 +168,25 @@ button:hover {
 div.gallery-col > img {
   width: 200px;
   height: 200px;
+}
+
+/* ------------------------------------------------------- */
+/* FOOTER section */
+/* ------------------------------------------------------- */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: rgb(86, 124, 181);
+}
+
+.copyright {
+  font-size: 0.9em;
+  color: white;
+}
+
+body :first-child {
 }
