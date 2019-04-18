@@ -21,7 +21,8 @@ h2 {
 
 a,
 span,
-p {
+p,
+label {
   color: rgb(77, 77, 77);
 }
 
@@ -117,6 +118,16 @@ p#second {
 /* CONTACT section */
 /* ------------------------------------------------------- */
 
-textarea {
+textarea,
+input {
   display: block;
+  margin-top: 10px;
+}
+
+input {
+  height: 20px;
+}
+
+form > div {
+  padding: 15px 0;
 }
