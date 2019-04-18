@@ -8,6 +8,13 @@ body {
   background-color: rgb(255, 253, 232);
 }
 
+h1 {
+  background-color: rgb(49, 82, 190);
+  color: white;
+  margin: 0;
+  padding: 20px 30px;
+}
+
 a {
   text-decoration: none;
 }
@@ -15,7 +22,7 @@ a {
 .container {
   margin: 0 auto;
   display: flex;
-  padding: 10px;
+  /* padding: 10px; */
   width: 960px;
 }
 
@@ -61,7 +68,12 @@ img#headshot {
 
 article {
   background-color: rgb(255, 255, 255);
-  width: 960px;
+  padding: 20px;
+  width: 920px;
   margin: 0 auto;
   border: 1px solid rgb(199, 199, 199);
+}
+
+article > div.container {
+  width: inherit;
 }
